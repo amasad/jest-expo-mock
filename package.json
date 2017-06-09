@@ -1,0 +1,23 @@
+{
+  "name": "jest-expo-mock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "expo": "^17.0.0",
+    "jest-expo": "^1.0.2",
+    "react": "^16.0.0-alpha.12",
+    "react-native": "^0.45.0"
+  },
+  "jest": {
+    "testRegex": ".*-test\\.js$",
+    "testEnvironment": "node",
+    "preset": "jest-expo"
+  }
+}
